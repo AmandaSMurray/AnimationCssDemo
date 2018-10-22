@@ -1,0 +1,24 @@
+.content  {
+    font-size: 0.25rem;
+    animation-name: moveIn; 
+    animation-duration: 10s;
+}
+
+@keyframes moveIn {
+
+    from {
+        color: white; 
+        font-size: 1.5rem;
+    }
+
+    25% {
+        color: green;
+        font-size: 5rem;
+    }
+
+to {
+        color: black;
+        font-size: 1.75rem;
+    }
+
+}
